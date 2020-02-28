@@ -99,3 +99,81 @@ footer {
 .ig{
     padding-bottom: 20px; 
 }
+
+textarea {
+    resize: none;
+}
+
+form {
+    text-align: center;
+}
+
+button {
+    color: whitesmoke !important;
+}
+#pizza1,
+#pizza2,
+#pizza3,
+#pizza4,
+#pizza5,
+#pizza6,
+#pizza7,
+#pizza8 {
+    border-radius: 50%;
+    box-shadow: 0 0 10px #DC7633;
+}
+.kili{
+    background-image: url("../img/04-13-things-your-pizza-guy-wont-tell-you-making-pizza.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-bottom: 250px;
+    padding-left: 50px;
+}
+   
+.menu {
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    text-shadow: 0 0 2px #BDC3C7;
+}
+#tash1,
+#tash2,
+#tash3,
+#tash4,
+#tash5,
+#tash6,
+#tash7,
+#tash8,
+#tash9{
+    padding-top: 25px;
+    font-style: italic;
+    color: tomato;
+}
+
+#pic1:hover,
+#pic2:hover,
+#pic3:hover {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    width: 170px;
+}
+  
+#order1 {
+    background-color: #EC7063 !important;
+    box-shadow: 0 0 10px #DC7633;
+}
+
+#order2 {
+    background-color: #EC7063 !important;
+    box-shadow: 0 0 10px #DC7633;
+}
+
+.order2 {
+    text-align: center;
+}
+
+select {
+    box-shadow: 0 0 10px #DC7633;
+}
