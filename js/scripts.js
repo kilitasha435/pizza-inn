@@ -10,10 +10,10 @@ function order(size, crust, vegTopping, nonVegTopping) {
 }
 var pizzaSize = ["Small", "Medium", "Large"];
 var pizzaCrust = ["Crispy", "Stuffed", "Gluten-free"];
-var pizzaNonVegTopping = ["Chicken", "Sausage", "Bacon",];
-var pizzaVegTopping = ["Mushrooms", "Onions", "Capsicum",];
+var pizzaNonVegTopping = ["Chicken", "Sausage", "Bacon", ];
+var pizzaVegTopping = ["Mushrooms", "Onions", "Capsicum", ];
 
-order.prototype.cost = function () {
+order.prototype.cost = function() {
     if (this.size === pizzaSize[0]) {
         this.price += 450;
     } else if (this.size === pizzaSize[1]) {
@@ -51,7 +51,7 @@ order.prototype.cost = function () {
 }
 
 
-order.prototype.totalCost = function () {
+order.prototype.totalCost = function() {
     var orderTotal = 0;
     for (var order = 0; order < totalCosts.length; order++) {
         orderTotal += totalCosts[order];
@@ -60,8 +60,8 @@ order.prototype.totalCost = function () {
 }
 
 
-$(document).ready(function () {
-    $("input#order1").click(function (event) {
+$(document).ready(function() {
+    $("input#order1").click(function(event) {
         event.preventDefault();
         var sizes = $("select#piz").val();
         var crusts = $("select#crus").val();
@@ -82,7 +82,7 @@ $(document).ready(function () {
 
     });
 
-    $("#order2").click(function () {
+    $("#order2").click(function() {
         prompt("Kindly insert you name")
         prompt("kindly insert you location")
         prompt("Kindly insert your addrress")
@@ -92,32 +92,55 @@ $(document).ready(function () {
     });
 
 
-    $(".pic").click(function () {
+    $(".pic").click(function() {
 
         $(".fill").fadeToggle("slow");
 
     });
 
-    function validate() {
-        var name = document.getElementById("name").value;
-        var email = document.getElementById("email").value;
-        var text = document.getElementById("text").value;
+
+    // $(".eve1").hover(function() {
+    //     $(".para").slideToggle(1000);
+    //     $("#img1").slideToggle(1000);
+    //     $(".para").show();
+    // });
+    // $(".eve2").hover(function() {
+    //     $(".para1").slideToggle(1000);
+    //     $("#img2").slideToggle(1000);
+    //     $(".para1").show();
+    // });
+    
+
+
+    // $(".eve4").hover(function() {
+    //     $(".para3").slideToggle(1000);
+    //     $("#img4").slideToggle(1000);
+    //     $(".para3").show();
+
+    // });
+})
+
+
+function validate() {
+    var name = document.getElementById("name").value;
+    var email = document.getElementById("email").value;
+    var text = document.getElementById("text").value;
 
 
 
-        if (name === "") {
-            alert("Please write your name!");
+    if (name === "") {
+        alert("Please write your name!");
 
-        } else if (email === "") {
-            alert("Please write your name!");
+    } else if (email === "") {
+        alert("Please write your name!");
 
-        } else if (text === "") {
+    } else if (text === "") {
 
-            alert("Please write a message");
+        alert("Please write a message");
 
-        } else {
+    } else {
 
-            alert("We have recieved  your message dear " + name + ", " + " thank you for getting in touch with us");
-        };
+        alert("We have recieved  your message dear " + name + ", " + " thank you for getting in touch with us");
+    };
 
-    }
+}
