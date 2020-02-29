@@ -10,16 +10,16 @@ function order(size, crust, vegTopping, nonVegTopping) {
 }
 var pizzaSize = ["Small", "Medium", "Large"];
 var pizzaCrust = ["Crispy", "Stuffed", "Gluten-free"];
-var pizzaNonVegTopping = ["Chicken", "Sausage", "Bacon", ];
-var pizzaVegTopping = ["Mushrooms", "Onions", "Capsicum", ];
+var pizzaNonVegTopping = ["Chicken", "Sausage", "Bacon",];
+var pizzaVegTopping = ["Mushrooms", "Onions", "Capsicum",];
 
-order.prototype.cost = function() {
+order.prototype.cost = function () {
     if (this.size === pizzaSize[0]) {
-        this.price += 500;
+        this.price += 450;
     } else if (this.size === pizzaSize[1]) {
-        this.price += 700;
+        this.price += 600;
     } else if (this.size === pizzaSize[2]) {
-        this.price += 900;
+        this.price += 1000;
     }
 
     if (this.crust === pizzaCrust[0]) {
@@ -51,7 +51,7 @@ order.prototype.cost = function() {
 }
 
 
-order.prototype.totalCost = function() {
+order.prototype.totalCost = function () {
     var orderTotal = 0;
     for (var order = 0; order < totalCosts.length; order++) {
         orderTotal += totalCosts[order];
@@ -60,8 +60,8 @@ order.prototype.totalCost = function() {
 }
 
 
-$(document).ready(function() {
-    $("input#order1").click(function(event) {
+$(document).ready(function () {
+    $("input#order1").click(function (event) {
         event.preventDefault();
         var sizes = $("select#piz").val();
         var crusts = $("select#crus").val();
@@ -74,77 +74,50 @@ $(document).ready(function() {
 
 
         $("#size").text(sizes);
-        $("#crus").text(crusts);
-        $("#nvgs").text(noVegToppings);
-        $("#vgs").text(vegToppings);
-        $("#tc").text(newPizzaOrder.totalCost());
+        $("#crust").text(crusts);
+        $("#nonveg").text(noVegToppings);
+        $("#veg").text(vegToppings);
+        $("#total").text(newPizzaOrder.totalCost());
 
 
     });
 
-    $("#order2").click(function() {
+    $("#order2").click(function () {
         prompt("Kindly insert you name")
         prompt("kindly insert you location")
         prompt("Kindly insert your addrress")
-        alert("You will be charged an extra 150 for delivery")
-        alert("Thank you for Your Purchase!Your order will be delivered to your location 🍕 🚚 in the next 30 minutes")
+        alert("You will be charged an extra 1.5$ for delivery")
+        alert("Thank you for purchasing from KILITASHA PIZZA INN!Your order will be delivered to your location 🍕 🚚 in the next 30 minutes")
 
     });
 
 
-    $(".picha").click(function() {
+    $(".pic").click(function () {
 
-        $(".jaza").fadeToggle("slow");
-
-    });
-
-
-    $(".eve1").hover(function() {
-        $(".para").slideToggle(1000);
-        $("#img1").slideToggle(1000);
-        $(".para").show();
-    });
-    $(".eve2").hover(function() {
-        $(".para1").slideToggle(1000);
-        $("#img2").slideToggle(1000);
-        $(".para1").show();
-    });
-    $(".eve3").hover(function() {
-        $(".para2").slideToggle(1000);
-        $("#img3").slideToggle(1000);
-        $(".para2").show();
-    });
-
-
-    $(".eve4").hover(function() {
-        $(".para3").slideToggle(1000);
-        $("#img4").slideToggle(1000);
-        $(".para3").show();
+        $(".fill").fadeToggle("slow");
 
     });
-})
 
-
-function validate() {
-    var name = document.getElementById("name").value;
-    var email = document.getElementById("email").value;
-    var text = document.getElementById("text").value;
+    function validate() {
+        var name = document.getElementById("name").value;
+        var email = document.getElementById("email").value;
+        var text = document.getElementById("text").value;
 
 
 
-    if (name === "") {
-        alert("Please write your name!");
+        if (name === "") {
+            alert("Please write your name!");
 
-    } else if (email === "") {
-        alert("Please write your name!");
+        } else if (email === "") {
+            alert("Please write your name!");
 
-    } else if (text === "") {
+        } else if (text === "") {
 
-        alert("Please write a message");
+            alert("Please write a message");
 
-    } else {
+        } else {
 
-        alert("We have recieved  your message dear " + name + ", " + " thank you for getting in touch with us");
-    };
+            alert("We have recieved  your message dear " + name + ", " + " thank you for getting in touch with us");
+        };
 
-}
+    }

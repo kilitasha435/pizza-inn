@@ -197,3 +197,15 @@ select {
 .contact{
     text-align: center;
 }
+#pizza1:hover,
+#pizza2:hover,
+#pizza3:hover,
+#pizza4:hover,
+#pizza5:hover,
+#pizza6:hover,
+#pizza7:hover,
+#pizza8:hover{
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
