@@ -177,3 +177,23 @@ button {
 select {
     box-shadow: 0 0 10px #DC7633;
 }
+.order2 {
+    text-align: center;
+}
+select {
+    box-shadow: 0 0 10px #DC7633;
+}
+.deliver {
+    background-image: url(../img/images\ \(4\).jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-bottom: 250px;
+    padding-left: 50px;
+}
+.pic{
+    text-align: center;
+}
+.contact{
+    text-align: center;
+}
