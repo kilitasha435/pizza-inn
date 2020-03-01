@@ -23,3 +23,6 @@
 
 #### BUGS
 * There are no known bugs yet .. if found any just follow up on kilikevin435@gmail.com
+
+#### LICENSE
+* KILITASHA PIZZA INN uses MIT license; https://opensource.org/licenses/MIT.
