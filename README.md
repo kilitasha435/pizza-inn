@@ -5,3 +5,21 @@
 ## DESCRIPTION
 
 * Kilitasha pizza inn is a small family business started by the Kili family and hopes to grow steadily as time goes by.
+* We hope that one may enjoy as he or she vesits our website,
+
+### REQUIREMENTS
+* For one to access to this website he or she must have acces to internet.
+* Have passion of eating pizza.
+
+
+### TECHNOLOGIES USED 
+* The website uses;
+
+  * HTML
+  * CSS
+  * JS
+  * jQUERY
+  * BOOTSTRAP
+
+#### BUGS
+* 
