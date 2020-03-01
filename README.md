@@ -26,3 +26,5 @@
 
 #### LICENSE
 * KILITASHA PIZZA INN uses MIT license; https://opensource.org/licenses/MIT.
+
+@ copyright 2020 [KEVIN]
