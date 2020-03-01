@@ -71,7 +71,7 @@ li>a {
 a:hover {
     box-shadow: 0 0 10px #E74C3C;
     color: #E6B0AA;
-    text-decoration: none;
+    text-decoration: blueviolet;
 }
 
 .log1 {
@@ -182,7 +182,7 @@ select {
     box-shadow: 0 0 10px #DC7633;
 }
 .deliver {
-    background-image: url(../img/images\ \(4\).jpeg);
+    background-image: url(../img/96ce26e7c7bac771f13274cbd66e5dac.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-color: rgba(0, 0, 0, 0.5);
