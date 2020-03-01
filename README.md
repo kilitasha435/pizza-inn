@@ -8,6 +8,7 @@
 * Kilitasha pizza inn is a small family business started by the Kili family and hopes to grow steadily as time goes by.
 * We hope that one may enjoy as he or she vesits our website,
 * The ative link to this website is https://kilitasha435.github.io/pizza-inn/
+* Kilitasha has two branches on in Kisumu and one in Eldoret
 
 ### REQUIREMENTS
 * For one to access to this website he or she must have acces to internet.
