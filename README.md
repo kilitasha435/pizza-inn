@@ -22,4 +22,4 @@
   * BOOTSTRAP
 
 #### BUGS
-* 
+* There are no known bugs yet .. if found any just follow up on kilikevin435@gmail.com
