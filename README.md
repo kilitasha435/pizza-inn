@@ -1,6 +1,7 @@
 # KILITASHA PIZZA INN
 
 * It is a webpage designed by KILI KEVIN
+* Enjoy visiting our site
 
 ## DESCRIPTION
 
