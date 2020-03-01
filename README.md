@@ -12,7 +12,7 @@
 ### REQUIREMENTS
 * For one to access to this website he or she must have acces to internet.
 * Have passion of eating pizza.
-
+* Be willing to support our branches.
 
 ### TECHNOLOGIES USED 
 * The website uses;
